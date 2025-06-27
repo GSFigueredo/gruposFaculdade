@@ -1,0 +1,15 @@
+BACKEND
+----------------------------------------------------------
+cd backend
+
+npm install express mysql2 cors body-parser bcrypt jsonwebtoken multer
+
+node servidor.js
+
+FRONTEND
+----------------------------------------------------------
+cd client
+
+npm install axios react-router-dom
+
+npm start
